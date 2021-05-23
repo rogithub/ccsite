@@ -1,6 +1,6 @@
 ---
 title: "Hechos con amor"
-description : "this is a meta description"
+description : "Productos terminados, confecciones colombia"
 draft: false
 ---
 
