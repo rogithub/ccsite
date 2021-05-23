@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Playa del Carmen"
+  title : "Playa del Carmen. Quintana Roo, México."
   content : "Confección industrial y residencial en materiales de la mejor calidad"
   image : "images/cclogo.png"
   button:
@@ -14,7 +14,7 @@ banner:
 # https://themefisher.github.io/themefisher-font/
 features:
   enable : true
-  title : "Decoración y asesoría"
+  title : "Decoración, asesoría, tapicería y más"
   image : "images/estilo.jpeg"
 
   # feature at the left of the image
@@ -56,38 +56,88 @@ features:
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/tapiceria.jpeg"
-  title : "Tapicería"
-  content : "Náutica, automotriz, comercial y residencial"
+  image : "images/playa.jpeg"
+  title : "Confecciones Colombia"
+  content : "Confecciones Colombia es una empresa nueva en la ciudad de Playa del Carmen, que brinda servicios de confección industrial a la medida de tus necesidades."
 
 
 ############################# About Product #######################
 about_product:
   enable : true
-  title : "Cojinería"
+  title : "Servicios"
   items:
     # about product item loop
-    - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : false
-        label : "Check Features"
-        link : "#"
-        
-    # about product item loop
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    - image : "images/tapiceria/comercial.jpeg"
+      title : "Tapicería."
+      content : "Contamos con los colores y acabados más bonitos en tapicería comercial, náutica y automotriz."
       button:
         enable : false
         label : "Check Features"
         link : "#"
 
+    - image : "images/cojineria/cojineria1.jpeg"
+      title : "Cojinería para exteriores."
+      content : "Conoce nuestras telas especiales para exteriores: resistentes al sol, la humedad y los hongos."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+    - image : "images/cojineria/cojineria2.jpeg"
+      title : "Cojinería para playa."
+      content : "Te ayudamos a crear ese ambiente especial para tu evento en la playa."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+    - image : "images/cojineria/cojineria3.jpg"
+      title : "Cojinería para muebles."
+      content : "Amplio surtido en colores, texturas y diseños de cojines para cada uno de tus espacios."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+    - image : "images/toldos/toldos.jpeg"
+      title : "Toldos y camastros."
+      content : "Toldos en lonas y telas sintéticas."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"        
+
+    - image : "images/gym/infantil.jpg"
+      title : "Gimnasios."
+      content : "Diseño de gimnasios infantiles."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"                
+
+    - image : "images/colchonetas/rehab.jpeg"
+      title : "Colchonetas."
+      content : "Colchonetas y cortinería médica y de rehabilitación"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#" 
+
+    - image : "images/deportes/tanques.jpeg"
+      title : "Deportes."
+      content : "Reparación y diseño de arnéses para deportes acuáticos, de uso militar o policial, percheras, equipo táctico, mochilas."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"  
+
+    - image : "images/fundas/bote.jpeg"
+      title : "Fundas y cubiertas."
+      content : "Fundas y cubiertas a la medida para vehículos, equipo especializado, instrumentos musicales, etc."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"                       
 
 #################################### Products ########################
 products:
