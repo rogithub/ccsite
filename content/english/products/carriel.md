@@ -4,7 +4,7 @@ date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/showcase/carriel1.jpg"
   - "images/showcase/carriel2.jpg"
-  - "images/showcase/carriel3.jpg"
+  - "images/showcase/carriel3.png"
   - "images/showcase/carriel4.jpg"
 
 # meta description
