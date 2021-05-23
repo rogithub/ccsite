@@ -1,0 +1,128 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Playa del Carmen"
+  content : "Confección industrial y residencial en materiales de la mejor calidad"
+  image : "images/cclogo.png"
+  button:
+   enable : true
+   label : "Productos Terminados"
+   link : "products"
+
+############################# Feature ############################
+# incon sets
+# https://themefisher.github.io/themefisher-font/
+features:
+  enable : true
+  title : "Decoración y asesoría"
+  image : "images/estilo.jpeg"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "A tiempo"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Entendemos lo valioso que es el tiempo de su negocio"
+    
+    # feature item loop
+  - title : "Diseño"
+    icon : "tf-ion-android-person"
+    content : "Inovadores sin perder de vista el lado humano"
+    
+    # feature item loop
+  - title : "Precio"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Precios competitivos sin sacrificar calidad"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Estilo"
+    icon : "tf-focus"
+    content : "Nos adaptamos a sus espacios y sus necesidades"
+
+    # feature item loop
+  - title : "Atención al detalle"
+    icon : "tf-magnifying-glass"
+    content : "Nuestro compromiso es que quede satisfecho"
+
+    # feature item loop
+  - title : "Exactitud"
+    icon : "tf-circle-compass"
+    content : "Planeamos las ideas y las implementamos con presición"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/tapiceria.jpeg"
+  title : "Tapicería"
+  content : "Náutica, automotriz, comercial y residencial"
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "Cojinería"
+  items:
+    # about product item loop
+    - image : "images/showcase/showcase-4.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/showcase/showcase-3.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable : true
+  bg_image : "images/call-to-action.jpg"
+  title : "Get Product Updates"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder : "Your Email Address Here"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
