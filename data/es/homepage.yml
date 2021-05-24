@@ -57,7 +57,7 @@ features:
 promo:
   enable : true
   image : "images/playa.jpeg"
-  title : "Confecciones Colombia"
+  title : "Quiénes somos"
   content : "Confecciones Colombia es una empresa nueva en la ciudad de Playa del Carmen, que brinda servicios de confección industrial a la medida de tus necesidades."
 
 
