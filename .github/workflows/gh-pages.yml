@@ -3,8 +3,8 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
+      - master  # is it "master" or "main"?
+  pull_request: 
 
 jobs:
   deploy:
