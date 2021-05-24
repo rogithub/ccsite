@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Playa del Carmen. Quintana Roo, México."
   content : "Confección industrial y residencial en materiales de la mejor calidad"
-  image : "images/cclogo.png"
+  image : "images/cclogo_sm.png"
   button:
    enable : true
    label : "Productos Terminados"
