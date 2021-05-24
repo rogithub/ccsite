@@ -28,7 +28,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.RO_GITHUB_TOKEN }}
-          external_repository: ConfeccionesColombia/confeccionescolombia.github.io
+          github_token: ${{ secrets.RO_GITHUB_TOKEN }}
+          external_repository: confeccionescolombia/confeccionescolombia.github.io
           publish_branch: master  # default: gh-pages
+          user_name: 'rogithub-actions'
+          user_email: 'rosec@protonmail.com'
           publish_dir: ./public
