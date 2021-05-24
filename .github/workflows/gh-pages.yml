@@ -29,6 +29,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: confeccionescolombia/confeccionescolombia.github.io
+          external_repository: ConfeccionesColombia/confeccionescolombia.github.io
           publish_branch: master  # default: gh-pages
           publish_dir: ./public
