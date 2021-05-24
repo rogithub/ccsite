@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Confección industrial y residencial"
+  title : "Confecciones Colombia"
   content : "Playa del Carmen. Quintana Roo, México."
   image : "images/cclogo_sm.png"
   button:
