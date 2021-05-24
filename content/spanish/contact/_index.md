@@ -19,7 +19,7 @@ opennig_hour:
     - "Jueves: 7:00 – 17:00"
     - "Viernes: 7:00 – 17:00"
     - "Sábado: WhatsApp 452 201 8336"
-    - "sunday: Descansamos"
+    - "Domingo: Descansamos"
     
 draft: false
 ---
