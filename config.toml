@@ -8,6 +8,7 @@ summarylength = "20"
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
+defaultContentLanguage = "es"
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -99,21 +100,11 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
 
 
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
+################################### Spanish language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-mx"
+contentDir = "content/spanish"
 weight = 1
 # copyright
 copyright = "Designed By [ro](https://rogithub.github.io/) & Developed By [ro](https://rogithub.github.io/)"
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
