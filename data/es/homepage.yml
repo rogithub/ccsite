@@ -75,6 +75,14 @@ about_product:
         label : "Check Features"
         link : "#"
 
+    - image : "images/cortinas/cortinas.jpeg"
+      title : "Cortinas y blackouts."
+      content : "Confección de cortinas a la medida, variedad de estilos, colores y texturas."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#" 
+
     - image : "images/cojineria/cojineria1.jpeg"
       title : "Cojinería para exteriores."
       content : "Conoce nuestras telas especiales para exteriores: resistentes al sol, la humedad y los hongos."
