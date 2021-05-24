@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://confeccionescolombia.com/"
+baseURL = "https://confeccionescolombia.com/"
 title = "Confecciones Colombia"
 theme = "vex-hugo"
 # post excert
