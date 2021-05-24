@@ -31,6 +31,4 @@ jobs:
           personal_token: ${{ secrets.CC_ACCES_TOKEN }}
           external_repository: confeccionescolombia/confeccionescolombia.github.io
           publish_branch: master  # default: gh-pages
-          user_name: 'rogithub-actions'
-          user_email: 'rosec@protonmail.com'
           publish_dir: ./public
