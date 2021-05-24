@@ -1,8 +1,8 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Playa del Carmen. Quintana Roo, México."
-  content : "Confección industrial y residencial en materiales de la mejor calidad"
+  title : "Confección industrial y residencial"
+  content : "Playa del Carmen. Quintana Roo, México."
   image : "images/cclogo_sm.png"
   button:
    enable : true
