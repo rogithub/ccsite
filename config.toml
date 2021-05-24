@@ -79,8 +79,8 @@ weight = 4
 logo = "images/rosa.png"
 logo_width = "35px"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "confección hotelería restaurantes playa del carmen"
+author = "romx"
 # currency
 currency = "$"
 # contact form action
@@ -107,4 +107,4 @@ languageCode = "es-mx"
 contentDir = "content/spanish"
 weight = 1
 # copyright
-copyright = "Designed By [ro](https://rogithub.github.io/) & Developed By [ro](https://rogithub.github.io/)"
+copyright = "Diseño y desarrollo de sitios web [Ing. Rodrigo Jiménez](https://rogithub.github.io/)"
