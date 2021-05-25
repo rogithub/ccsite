@@ -1,6 +1,7 @@
 ################################### Default Configuration ############################
 baseURL = "https://www.confeccionescolombia.com/"
 title = "Confecciones Colombia"
+enableRobotsTXT = true
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
