@@ -116,7 +116,8 @@ $(window).on('load', function () {
     $("#dPedido").remove();    
 
     let pedido = $(`
-      <div id="dPedido" class="alert alert-success" role="alert">        
+      <div id="dPedido" class="alert alert-success" role="alert">     
+        <h1 style="font-size:1.5em">Código de compra</h1>   
         <p>
           Gracias por comprar con nosotros, para completar
           tu compra, envía un WhatsApp con la foto del código QR de tú
