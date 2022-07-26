@@ -64,18 +64,11 @@ $(window).on('load', function () {
   let loc = window.location.href;
   showButton(loc.indexOf("#/cart") !== -1);
     
-  document.addEventListener('snipcart.ready', () => {
-    // 
-    // console.dir(Snipcart);
-   
+  document.addEventListener('snipcart.ready', () => {       
     Snipcart.events.on('theme.routechanged', (routesChange) => {
       let isCart = routesChange.to.indexOf("/cart") !== -1;
       showButton(isCart);
-    });
-
-    $('span.snipcart-cart-summary-fees__amount').on("change", function () {
-      alert("changed!");
-    });
+    });    
     
   });
 
@@ -84,8 +77,7 @@ $(window).on('load', function () {
     pedido.get()[0].scrollIntoView({ behavior: "smooth" });    
   });
 
-  let createQr = ()=> {
-    $("#dPedido").remove();
+  let generateQr = () => {
     let items = [];
     $("div.snipcart-item-line__container").each((i, it) => {
       let src = $(it).find("img:first").attr("src");
@@ -104,6 +96,21 @@ $(window).on('load', function () {
       });
     });
 
+    $( "#qrcode" ).replaceWith(`<div id="qrcode"></div>`);
+
+    let qrcode = new QRCode("qrcode", {
+      text: JSON.stringify(items),
+      width: 256,
+      height: 256,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.H
+    });
+  }
+
+  let createQr = () => {
+    $("#dPedido").remove();    
+
     let pedido = $(`
       <div id="dPedido" class="alert alert-success" role="alert">        
         <p>
@@ -112,7 +119,7 @@ $(window).on('load', function () {
           pedido. Al número 452 201 8336 o dándo click en éste
           link <a style="color: hotpink;display:inline;" href="https://wa.me/4522018336?text=Pedido,">enviar pedido<a/>.
           
-          <div id="qrcode" style="display: inline-block"></div>
+          <div id="qrcode"></div>
         </p>        
       </div>`
     );
@@ -124,13 +131,10 @@ $(window).on('load', function () {
     pedido.css("background-color","white");
     pedido.insertAfter("div.snipcart-cart__footer");
 
-    let qrcode = new QRCode("qrcode", {
-      text: JSON.stringify(items),
-      width: 256,
-      height: 256,
-      colorDark : "#000000",
-      colorLight : "#ffffff",
-      correctLevel : QRCode.CorrectLevel.H
+    generateQr();
+
+    Snipcart.events.on('item.updated', (item) => {      
+      generateQr();
     });
 
     return pedido;
