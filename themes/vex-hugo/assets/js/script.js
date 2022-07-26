@@ -69,6 +69,8 @@ $(window).on('load', function () {
       let isCart = routesChange.to.indexOf("/cart") !== -1;
       showButton(isCart);
     });    
+
+    console.log("cart ready");
     
   });
 
@@ -95,6 +97,8 @@ $(window).on('load', function () {
         q: quantity
       });
     });
+
+    console.dir(items);
 
     $( "#qrcode" ).replaceWith(`<div id="qrcode"></div>`);
 
@@ -134,7 +138,12 @@ $(window).on('load', function () {
     generateQr();
 
     Snipcart.events.on('item.updated', (item) => {      
+      console.log("item Changed");
       generateQr();
+    });
+
+    Snipcart.events.on('item.removed', (it) => {   
+      pedido.remove();
     });
 
     return pedido;
