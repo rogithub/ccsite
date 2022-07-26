@@ -138,8 +138,7 @@ $(window).on('load', function () {
     generateQr();
 
     Snipcart.events.on('item.updated', (item) => {      
-      console.log("item Changed");
-      generateQr();
+      pedido.remove();
     });
 
     Snipcart.events.on('item.removed', (it) => {   
