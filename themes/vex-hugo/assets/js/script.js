@@ -119,11 +119,11 @@ $(window).on('load', function () {
       <div id="dPedido" class="alert alert-success" role="alert">     
         <h1 style="font-size:1.5em">Código de compra</h1>   
         <p>
-          Para completar tu compra, envianos una foto del siguiente codigo QR, dándo click 
+          Para completar tu compra, envianos una foto del siguiente código QR, dándo click 
           <a style="color: hotpink;display:inline;" href="https://wa.me/524522018336?text=Pedido,">aquí<a/>
         </p>   
         <p>
-          WhatsApp 452 201 8336.
+          WhatsApp +524522018336.
         </p>
         <div id="qrcode"></div>
       </div>`
