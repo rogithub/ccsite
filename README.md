@@ -1,2 +1,2 @@
-# Web page for
+# Página oficial
 www.confeccionescolombia.com
