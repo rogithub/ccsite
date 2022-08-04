@@ -5,7 +5,7 @@ description : "Contacto confecciones colombia"
 office:
   title : "Taller"
   mobile : "984 147 4171 / WhatsApp 452 201 8336"
-  email : "contacto@confeccionescolombia.com"
+  email : "confeccionescolombiamx@gmail.com"
   location : "Canoras 11 MZ26 LT2 42, Villas del Carmen. Solidaridad, Quintana Roo. México."
   content : "Agende una cita para que lo visite un especialista, o visítenos en nuestras instalaciones."
 
