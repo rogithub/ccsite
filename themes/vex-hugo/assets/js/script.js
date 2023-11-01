@@ -135,7 +135,7 @@ $(window).on('load', function () {
           <a style="color: hotpink;display:inline;" href="https://wa.me/524522018336?text=Pedido,">aquí<a/>
         </p>   
         <p>
-          WhatsApp +524522018336.
+          WhatsApp.
         </p>
         <div id="qrcode"></div>
       </div>`
